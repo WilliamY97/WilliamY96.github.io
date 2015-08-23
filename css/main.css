@@ -1,0 +1,162 @@
+
+ .container {
+    padding-right: 20%;
+    padding-top: 2.7%;
+      width:101.2%;
+}
+
+#headerwrap {
+	background: linear-gradient(
+      rgba(0, 31, 63, 0.50),
+      rgba(0, 31, 63, 0.40)
+    ), url(../img/a.png);
+	padding-right:30px;
+	text-align:center;
+  /*275px*/
+  padding-bottom:37px;
+	height: 30%;
+	width: 100%;
+}
+.navbar{
+  border-radius: 0 !important;
+  font-family: "Raleway";
+  margin-bottom: 0;
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
+
+
+.row {
+   font-size: auto;
+    background: #1d3e53;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 0px;
+    height: auto;
+    width:101.2%;
+    color: white;
+}
+
+.media-heading {
+  font-size: 2.5vmin;
+
+}
+
+.icon-list{
+  font-size: 3.6vmin;
+
+}
+
+#box1{
+    font-family: "Raleway";
+    color: #B6B7C2;
+    padding-top: 10px;
+    min-width:50%;
+    float:left;
+    height: auto;
+    padding-left: 5%;
+}
+
+#box2{
+    font-family: "Raleway";
+    color:white;
+    text-align: justify;
+    width: 50%;
+    float:left;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 5%;
+
+}
+
+#box3{
+  font-family: "Raleway";
+  color:white;
+  text-align: justify;
+  width: 45%;
+  float:left;
+  padding-top: 10px;
+  padding-left: 5%;
+}
+
+#box4{
+  background: white;
+  color: black;
+  padding-top:20px;
+  padding-left: 5.5%;
+  padding-right: 7%;
+  height: auto;
+  width:100%;
+  color: white;
+  background: linear-gradient(
+      rgba(240, 228, 255, 0.60),
+      rgba(240, 228, 255, 0.40)
+    ), url(../img/a2.png);
+
+}
+
+
+
+}
+
+.nav{
+padding-left: 10px;
+padding-top:  3px;
+}
+
+
+
+
+#bar1 {
+    background: black;
+    padding-top:100px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 400px;
+    width: 100%;
+}
+
+#picture {
+    display:inline-block;
+
+
+}
+
+#headerwrap h1{
+font-family: "Lobster";
+    font-weight: 500;
+    color: #F0E4FF;
+    font-size: 80px;
+}
+
+p.subname{
+font-family: "Raleway";
+    margin-left: 4px;
+    color: white;
+    font-size: 30px;
+
+}
+
+a, a:hover{
+color: white;
+
+
+}
+
+.bigwrap{
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+#foot{
+  color: gray;
+  background-color: #222;
+  border-color: white;
+	padding-right:30px;
+	text-align:center;
+  padding-top:10px;
+	height: 40px;
+	width: 100%;
+}

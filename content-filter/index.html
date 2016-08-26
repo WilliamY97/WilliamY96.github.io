@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed:700|Raleway|Lobster' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<link rel="stylesheet" href="../css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../css/custom.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>William Yang</title>
+</head>
+<body>
+
+	  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand signature"> <img style = "width:35px" src="../images/signature24.png"> </p>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+
+          <li>
+            <a href="../resume/index.html">Resume</a>
+          </li>
+
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/WilliamY97" target="_blank">Github</a></li>
+
+          <li><a href="https://medium.com/@WilliamY97" target="_blank">My Blog</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+	<header class="cd-header">
+		<h1>My Projects</h1>
+	</header>
+
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters" style="background-color:#2c3e50">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".color-1"><a href="#0" data-type="color-1">Web Applications</a></li>
+					<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">Machine Learning</a></li>
+					<li class="filter" data-filter=".color-3"><a href="#0" data-type="color-3">General Software</a></li>					
+					<li class="filter" data-filter=".color-4"><a href="#0" data-type="color-4">Hackathons</a></li>
+
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+
+
+		<section class="cd-gallery">
+
+			<ul>
+				<li style = "vertical-align:top;height:473px; background-color:white;" class="mix color-1 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 18px;">Tournament Results</h3>
+				</b>
+				<h4>Python</h4>
+				<br>
+				<img src="../images/code.png" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						Built a PostgreSQL relational database scheme to store the results of a game tournament. Also provided a number of queries to efficiently report the results of the tournament and determine the winner.
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Tournament-Results"> <img src="../images/github.svg" height="32" width="32"> </a>
+
+				</li>
+
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-1 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 18px;">Multi-User Blog</h3>
+				</b>
+				<h4>Python</h4>
+				<br>
+				<img src="../images/blog.png" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						This is a project I built to allow multiple users to register and publish to a blog. It is built using a python backend and Jinja2 template. Users can sign up (using hashing and salting methods for security) through an authentication system I have built and publish posts.
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Multi-User-Blog"> <img src="../images/github.svg" height="32" width="32"> </a>
+				<a href="http://williamyblog.appspot.com/blog"> <img src="../images/website.svg" height="32" width="32"> </a>
+				</li>
+
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-2 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Supervised Learning to Verify Suitability of Dysphonia Measurements for Diagnosis of Parkinson’s Disease</h3>
+				</b>
+				<h4>Python</h4>
+				<br>
+				<img src="../images/code.png" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						This project attempts to prove that vocalization data from a patient can help diagnose whether or not they suffer from Parkinson’s. I ran various machine learning classifiers (Ex. Naïve Bayes, SVM, etc.) on the data and concluded with an accuracy of 89.74%
+				</p>
+				<br>
+				<div style="width:100%;">
+				<a href="https://github.com/WilliamY97/Supervised-Learning-on-Dysphonia-Measurements-for-Diagnosis-of-Parkinsons-Disease"> <img src="../images/github.svg" height="32" width="32"> </a>
+				<a href="https://medium.com/@WilliamY97/supervised-learning-to-verify-suitability-of-dysphonia-measurements-for-diagnosis-of-parkinsons-c370419ba38f#.5pn18hi57"> <img src="../images/medium.svg" height="32" width="32"> </a>
+				</div>
+				</li>
+																
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-2 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Smartcab Reinforcement Learning</h3>
+				</b>
+				<h4>Python</h4>
+				<br>
+				<img src="../images/smartcab.png" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						Applied reinforcement learning to build a simulated vehicle navigation agent. This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties.
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Smartcab"> <img src="../images/github.svg" height="32" width="32"> </a>
+
+				</li>
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-2 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Unsupervised Learning on Customer Segments</h3>
+				</b>
+				<h4>Python</h4>
+				<br>
+				<img src="../images/customersegment.png" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						Reviewed unstructured data to understand the patterns and natural categories that the data fits into. Used multiple algorithms and both empirically and theoretically compared and contrasted their results. Made predictions about the natural categories of multiple types in a dataset, then checked these predictions against the result of unsupervised analysis.
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Customer-Segments"> <img src="../images/github.svg" height="32" width="32"> </a>
+
+				</li>
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-2 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Student Intervention Supervised Learning</h3>
+				</b>
+				<h4>Python</h4>
+				<br>
+				<img src="../images/svm.png" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						Investigated the factors that affect a student's performance in high school. Trained and tested several supervised machine learning models on a given dataset to predict how likely a student is to pass. Selected the best model based on relative accuracy and efficiency.
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Student-Intervention-ML"> <img src="../images/github.svg" height="32" width="32"> </a>
+
+				</li>
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-2 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Boston House Pricing Prediction</h3>
+				</b>
+				<h4>Python</h4>
+				<br>
+				<img src="../images/boston.png" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						Built a model to predict the value of a given house in the Boston real estate market using various statistical analysis tools. Identified the best price that a client can sell their house utilizing machine learning.
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Boston-House-Pricing-Prediction"> <img src="../images/github.svg" height="32" width="32"> </a>
+
+				</li>
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-4 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Aug Tour</h3>
+				</b>
+				<h4>Yale Hacks 2015</h4>
+				<br>
+				<img style = "width:300px; height:160px;" src="../images/augtour.png" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						This application was made at YaleHacks 2015 and uses location services to detect if you are in proximity to one of the landmark features based on a predefined set of coordinates and project 3D objects
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/3DMapViewer"> <img src="../images/github.svg" height="32" width="32"> </a>
+				<a href="https://medium.com/@WilliamY97/yhack-2015-augmented-reality-rap-battles-fun-times-11a704a46b5d#.c2h2wg1x9"> <img src="../images/medium.svg" height="32" width="32"> </a>
+				<a href="http://ipch.yale.edu/news/ipch-sponsors-two-competitions-yales-yhack-hackathon"> <img src="../images/news.svg" height="32" width="32"> </a>				
+				</li>																		
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-3 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Boa Search Engine</h3>
+				</b>
+				<h4>Python</h4>
+				<br>
+				<img  src="../images/code.png" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						My culminating project from CS101 on Udacity was a fully functional search engine. I built a web crawler to find links on different pages and an index to find relevant URLs for a search word. The engine then ranks pages for the best result of a user query.
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Boa-Search-Engine"> <img src="../images/github.svg" height="32" width="32"> </a>
+
+				</li>
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-3 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Personal Site 1.0</h3>
+				</b>
+				<h4>Old Version</h4>
+				<br>
+				<img style = "width:300px; height:160px;" src="../images/oldsite.png" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						The personal site I used before I made the one currently. The entire source code for the old site is posted on my GitHub which you can visit from the link below!
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Oldsite"> <img src="../images/github.svg" height="32" width="32"> </a>
+
+				</li>
+
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-3 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Klondike Solitaire</h3>
+				</b>
+				<h4>Java</h4>
+				<br>
+				<img src="../images/code.png" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						This is the classic Klondike Solitaire game that I have developed. It was my first application of object-oriented programming. I programmed a Solitaire applet that allows a player to move cards via mouse dragging. The GUI was designed using Java’s Abstract Window Toolkit
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Klondike-Solitaire"> <img src="../images/github.svg" height="32" width="32"> </a>
+
+				</li>
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-4 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">TeamHack</h3>
+				</b>
+				<h4>Hack The North 2015</h4>
+				<br>
+				<img src="../images/teamhack.jpg" style = "width:300px; height:160px;" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						My project for Hack The North 2015 with three other members - TeamHack - Find and get matched with the best team members for your next big hackathon!
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/HTN2015-TeamHack"> <img src="../images/github.svg" height="32" width="32"> </a>
+
+				</li>
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-3 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;" >Waterloo Satellite Team Site</h3>
+				</b>
+				<h4>Command & Data Handling Team</h4>
+				<br>
+				<img style = "width:300px; height:160px;" src="../images/watsat.png" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						Revamping entire WatSat site. In progress. The University of Waterloo Satellite Team (WatSat) is a group of 30 passionate students serious about designing, building, and sending a satellite into space on a never-before-completed mission. Site is viewable at the link below
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/WatSat"> <img src="../images/github.svg" height="32" width="32"> </a>
+				<a href="http://williamyang.me/WatSat"> <img src="../images/website.svg" height="32" width="32"> </a>
+				</li>
+
+				<li style = "vertical-align: top;height:473px; background-color:white;" class="mix color-4 wcard"> 
+
+				<b>
+				<h3 style = "font-size: 15px;">Texty</h3>
+				</b>
+				<h4>PennApps Winter 2016</h4>
+				<br>
+				<img style = "width:300px; height:160px;" src="../images/texty.png" alt="Card image">
+
+				<br>
+				<p style = "font-size:13px;">
+						Texty's your non-data assistant who helps you with basic things while you don't have data. Instead of querying for information with an internet connection, it instead uses texts over a mobile device's cellular network which are cheaper than buying data packages.
+				</p>
+				<br>
+				<a href="https://github.com/WilliamY97/Texty"> <img src="../images/github.svg" href= "#" height="32" width="32"> </a>
+				<a href="http://texty.space"> <img src="../images/website.svg" height="32" width="32"> </a>
+				</li>																		
+
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+			<div class="cd-fail-message">No results found</div>
+		</section> <!-- cd-gallery -->
+<footer class="bs-docs-footer" role="contentinfo"> 
+  <center>
+      <p> Copyright © 2016 William Yang. Made with ♥ in Toronto, ON </p>
+  </center>
+</footer>
+
+
+	</main> <!-- cd-main-content -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

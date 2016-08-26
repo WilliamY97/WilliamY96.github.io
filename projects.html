@@ -1,228 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >    
+    <link rel='shortcut icon' href='images/signature.ico' type='image/x-icon'/>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>William Yang</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/project.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-<link href="css/hover.css" rel="stylesheet" media="all">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="js/index.js"></script>
-
-
-<link href='http://fonts.googleapis.com/css?family=Lobster|Raleway' rel='stylesheet' type='text/css'>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/custom.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed:700|Raleway|Lobster' rel='stylesheet' type='text/css'>
   </head>
-  <body id="main-content" style="display:none;">
-    <div class="bigwrap">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <h4 style="margin-left: 20px; margin-right: 25px;float:left; color: white;">WillYDev</h4>
-      <ul class="nav nav-pills">
-  <li ><a href="index.html">Home</a></li>
-  <li class="active"><a href="projects.html">Projects</a></li>
-  <li><a href="https://medium.com/@WilliamY97">Blog</a></li>
-  <li><a href="resume.html">Résumé</a></li>
 
-</ul>
+  <body>
 
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand signature"> <img style = "width:35px" src="images/signature24.png"> </p>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-</nav>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
 
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="http://news.bootswatch.com">Projects</a>
+          </li>
 
-    <div style="height:100%;" id="headerwrap">
-<div style="padding:0px; padding-top:5px;padding-left:5px;padding-right:5px;" class= "container">
+          <li>
+            <a href="http://news.bootswatch.com">Resume</a>
+          </li>
 
+        </ul>
 
-  <div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-    <div class="card-block">
-      <h4 class="card-title">Multi-User Blog</h4>
-      <h6 class="card-subtitle text-muted">Python</h6>
-    </div>
-    <img style="width:80%;height:30%;" src="img/blog.png" alt="">
-    <div class="card-block">
-      <p style="margin-top:20px;"class="card-text">This is a project I built to allow multiple users to register and publish to a blog. It is built using a python backend and Jinja2 template. Users can sign up (using hashing and salting methods for security) through an authentication system I have built and publish posts.</p>
-          <p><a style="float:left;"href="https://github.com/WilliamY97/Supervised-Learning-on-Dysphonia-Measurements-for-Diagnosis-of-Parkinsons-Disease/stargazers" class="btn btn-primary" role="button">Github Link</a>
-           </p>
-          <p><a style="float:right;"href="https://medium.com/@WilliamY97/supervised-learning-to-verify-suitability-of-dysphonia-measurements-for-diagnosis-of-parkinsons-c370419ba38f#.5pn18hi57" class="btn btn-primary" role="button">Medium Link</a></p>
-    </div>
-  </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/WilliamY97" target="_blank">Github</a></li>
 
-<div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h5 class="card-title">Supervised Learning to Verify Suitability of Dysphonia Measurements for Diagnosis of Parkinson’s Disease</h5>
-    <h6 class="card-subtitle text-muted">Python</h6>
-  </div>
-  <img style="width:80%;height:30%;" src="img/scatter.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">This project attempts to prove that vocalization data from a patient can help diagnose whether or not they suffer from Parkinson’s. I ran various machine learning classifiers (Ex. Naïve Bayes, SVM, etc.) on the data and concluded with an accuracy of 89.74%</p>
-        <p><a style="float:left;"href="https://github.com/WilliamY97/Supervised-Learning-on-Dysphonia-Measurements-for-Diagnosis-of-Parkinsons-Disease/stargazers" class="btn btn-primary" role="button">Github Link</a>
-         </p>
-        <p><a style="float:right;"href="https://medium.com/@WilliamY97/supervised-learning-to-verify-suitability-of-dysphonia-measurements-for-diagnosis-of-parkinsons-c370419ba38f#.5pn18hi57" class="btn btn-primary" role="button">Medium Link</a></p>
-  </div>
-</div>
+          <li><a href="https://medium.com/@WilliamY97" target="_blank">My Blog</a></li>
+        </ul>
 
-
-<div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">Smartcab Reinforcement Learning</h4>
-    <h6 class="card-subtitle text-muted">Python</h6>
-  </div>
-  <img style="width:80%;height:30%;" src="img/smartcab.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">Designed an AI driving agent for the smartcab using Q-learning. Based on the rewards and penalties it gets, the agent should learn an optimal policy for driving on city roads and trying to reach the destination within a goal time.</p>
-        <p><a href="https://github.com/WilliamY97/Smartcab" class="btn btn-primary" role="button">Github Link</a></p>
-  </div>
-</div>
-
-
-<div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">Unsupervised Learning on Customer Segments</h4>
-    <h6 class="card-subtitle text-muted">Python</h6>
-  </div>
-  <img style="width:80%;height:30%;" src="img/customersegment.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">Used unsupervised learning techniques to see if any similarities exist between customers, and how to best cluster customers into distinct categories.</p>
-        <p><a href="https://github.com/WilliamY97/Customer-Segments" class="btn btn-primary" role="button">Github Link</a></p>
-  </div>
-</div>
-
-
-<div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">Student Intervention Supervised Learning</h4>
-    <h6 class="card-subtitle text-muted">Python</h6>
-  </div>
-  <img style="width:80%;height:30%;" src="img/svm.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">Developed a model that can predict the likelihood that a given student will pass, thus helping diagnose whether or not an intervention is necessary.</p>
-        <p><a href="https://github.com/WilliamY97/Student-Intervention-ML" class="btn btn-primary" role="button">Github Link</a></p>
-  </div>
-</div>
-
-
-<div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">Boston House Pricing Prediction</h4>
-    <h6 class="card-subtitle text-muted">Python</h6>
-  </div>
-  <img style="width:80%;height:30%;" src="img/boston.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">Built an optimal model based on a statistical analysis with the tools available. This model is used to estimate the best selling price for a client’s Boston home.</p>
-        <p><a href="https://github.com/WilliamY97/Student-Intervention-ML" class="btn btn-primary" role="button">Github Link</a></p>
-  </div>
-</div>
-
-<div style="background-color:white; height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">Aug Tour</h4>
-    <h6 class="card-subtitle text-muted">Yale Hacks 2015: Back-End Developer</h6>
-  </div>
-  <img style="width:100%;height:30%;margin-bottom:10px;" src="img/augtour.png" alt="">
-  <div class="card-block">
-    <b style =" ">YHack 2015: Best Yale Heritage Preservation Application ★</b>
-    <p style="margin-top:20px;"class="card-text">This application was made at YaleHacks 2015 and uses location services to detect if you are in proximity to one of the landmark features based on a predefined set of coordinates and project 3D objects.</p>
-         <p><a style="float:left;"href="https://github.com/WilliamY97/3DMapViewer" class="btn btn-primary" role="button">Github Link</a>
-         </p>
-        <p><a style="float:right;"href="http://ipch.yale.edu/news/ipch-sponsors-two-competitions-yales-yhack-hackathon" class="btn btn-primary" role="button">News Link</a></p>
-  </div>
-</div>
-
-<div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">Boa Search Engine</h4>
-    <h6 class="card-subtitle text-muted">Python - 3 Month Course</h6>
-  </div>
-  <img style="width:80%;height:30%;" src="img/code.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">My culminating project from CS101 on Udacity was a fully functional search engine. I built a web crawler to find links on different pages and an index to find relevant URLs for a search word. The engine then ranks pages for the best result of a user query.</p>
-        <p><a href="https://github.com/WilliamY97/Boa-Search-Engine" class="btn btn-primary" role="button">Github Link</a></p>
-  </div>
-</div>
-
-<div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">My Personal Site</h4>
-    <h6 class="card-subtitle text-muted">HTML/CSS/JS</h6>
-  </div>
-  <img style="width:100%;height:30%;" src="img/mysite.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">The personal site you are currently visiting was developed by yours truly. If you like what you see, the entire source code for the site is posted on my GitHub which you can visit from the link below!</p>
-        <p><a href="https://github.com/WilliamY97/WilliamY97.github.io" class="btn btn-primary" role="button">Github Link</a></p>
-  </div>
-</div>
-
-<div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">Klondike Solitaire</h4>
-    <h6 class="card-subtitle text-muted">Java</h6>
-  </div>
-  <img style="width:80%;height:30%;" src="img/code.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">This is the classic Klondike Solitaire game that I have developed. It was my first application of object-oriented programming. I programmed a Solitaire applet that allows a player to move cards via mouse dragging. The GUI was designed using Java’s Abstract Window Toolkit</p>
-        <p><a href="https://github.com/WilliamY97/Klondike-Solitaire" class="btn btn-primary" role="button">Github Link</a></p>
-  </div>
-</div>
-
-
-
-<div style="background-color:white; height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">TeamHack</h4>
-    <h6 class="card-subtitle text-muted">Hack The North 2015: Full-Stack Developer</h6>
-  </div>
-  <img style="width:100%;height:30%;" src="img/teamhack.jpg" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">My project for Hack The North 2015 with three other members - TeamHack - Find and get matched with the best team members for your next big hackathon! Warning: functionality is still a bit glitchy since we moved hosting.</p>
-        <p><a href="https://github.com/WilliamY97/HTN2015-TeamHack" class="btn btn-primary" role="button">Github Link</a></p>
-  </div>
-</div>
-
-
-
-<div style="background-color:white; height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">Waterloo Satellite Team Site</h4>
-    <h6 class="card-subtitle text-muted">Front-End Developer / Data Handling</h6>
-  </div>
-  <img style="width:100%;height:30%;" src="img/watsat.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">Revamping entire WatSat site. In progress. The University of Waterloo Satellite Team (WatSat) is a group of 30 passionate students serious about designing, building, and sending a satellite into space on a never-before-completed mission. Site is viewable at the link below.</p>
-        <p><a style="float:left;"href="https://github.com/WilliamY97/WatSat" class="btn btn-primary" role="button">Github Link</a></p>
-        <p><a style="float:right;"href="WatSat" class="btn btn-primary" role="button">Site Link</a></p>  </div>
-</div>
-
-<div style="background-color:white;height:455px;"class="hvr-wobble-horizontal card col-sm-6 col-md-3">
-  <div class="card-block">
-    <h4 class="card-title">Texty</h4>
-    <h6 class="card-subtitle text-muted">PennApps Winter 2016: Front-End Developer</h6>
-  </div>
-  <img style="width:100%;height:30%;" src="img/texty.png" alt="">
-  <div class="card-block">
-    <p style="margin-top:20px;"class="card-text">Texty's your non-data assistant who helps you with basic things while you don't have data. Instead of querying for information with an internet connection, it instead uses texts over a mobile device's cellular network which are cheaper than buying data packages.</p>
-        <p><a style="float:left;"href="https://github.com/WilliamY97/WatSat" class="btn btn-primary" role="button">Github Link</a></p>
-        <p><a style="float:right;"href="Texty" class="btn btn-primary" role="button">Site Link</a></p>  </div>
-</div>
-
-
-
-
+      </div>
     </div>
   </div>
 
 
-<div id="foot">
-<p>Copyright © 2015 William Yang. Made with ♥ in Markham, ON</p>
-</div>
-  </div>
+
+<footer class="bs-docs-footer" role="contentinfo"> 
+  <center>
+      <p> Copyright © 2016 William Yang. Made with ♥ in Toronto, ON </p>
+  </center>
+</footer>
+
   </body>
 
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src='js/particles.js'></script>
+  <script src="js/index.js"></script>
+  <script src="js/prefixfree.min.js"></script>
 
 </html>

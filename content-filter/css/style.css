@@ -284,10 +284,16 @@ xgallery
   height: 0;
   display: inline-block;
 }
-.cd-gallery {
+.cd-gallery{
   display: block;
-  width: 100%;
+
 }
+
+.gallerypic {
+  width: 100%;
+  height:160px;
+}
+
 .cd-gallery .cd-fail-message {
   display: none;
   text-align: center;

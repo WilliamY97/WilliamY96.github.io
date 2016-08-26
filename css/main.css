@@ -1,4 +1,39 @@
 
+<<<<<<< HEAD
+=======
+ .container {
+    padding-top: 2.7%;
+        padding-bottom: 2%;
+      width:100%;
+    
+}
+
+#headerwrap {
+	background: linear-gradient(
+      rgba(0, 31, 63, 0.50),
+      rgba(0, 31, 63, 0.40)
+    ), url(../img/a.png);
+	padding-right:30px;
+	text-align:center;
+  /*275px*/
+  padding-bottom:37px;
+	height: 30%;
+	width: 100%;
+}
+
+#headerwrapwip {
+	background: linear-gradient(
+      rgba(0, 31, 63, 0.50),
+      rgba(0, 31, 63, 0.40)
+    ), url(../img/a.png);
+	padding-right:30px;
+	text-align:center;
+  /*275px*/
+	height: 30%;
+	width: 100%;
+}
+
+>>>>>>> origin/master
 .navbar{
   border-radius: 0 !important;
   font-family: "Raleway";
